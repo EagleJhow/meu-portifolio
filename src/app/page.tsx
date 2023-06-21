@@ -1,3 +1,4 @@
+import { Experience } from './components/experience/experience'
 import { Header } from './components/header'
 
 import './components/styles/home.scss'
@@ -6,13 +7,7 @@ export default function Home() {
   return (
     <main className='container'>
         <Header/>
-        <div className='experience'>
-          <h3>Experience</h3>
-          <p>Nenhuma</p>
-        </div>
-        <div className='experience-time'>
-
-        </div>
+        <Experience/>
         <div className='infos'>
           <h3>Languages</h3>
           <div className="languagesinfo">
@@ -25,7 +20,7 @@ export default function Home() {
             <span>Cursando Analise e Desenvolvimento de Sistemas - Fatec</span>
           </div>
         </div>
-        <div className="btns">
+        <div className="buttons">
           <div className="social">
 
           </div>
